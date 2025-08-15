@@ -17,6 +17,6 @@ curry_amount_except_pentuple_it <- function(initial_amount, customer_name) {
     stop("You only want ", initial_amount, " servings of curry?? Please enter higher amount, you want more.")
   }
   new_curry_amount <- initial_amount * 5
-  paste(customer_name, "would like", new_curry_amount, "servings of curry.")
+  paste(customer_name, "the cat, would like", new_curry_amount, "servings of curry.")
 }
 
